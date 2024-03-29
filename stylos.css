@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Acme', Georgia, 'Geneva', sans-serif;
+  }
+  body
+  {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 80dvw;
+    margin: 0px auto;
+  }
+  header
+  {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #1f2937;
+    color: #ffffff;
+    width: 80dvw;
+  }
+  nav
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 60dvw;
+    margin: 0px auto;
+    padding: 2dvh 0;
+  }
+
+  .logo h3
+  {
+    font-size: 1dvw;
+    font-weight: bold;
+  }
+
+  nav ul
+  {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+  }
+
+  nav li
+  {
+    margin-left: 2dvw;
+  }
+  nav a
+  {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.8dvw;
+  }
