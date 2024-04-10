@@ -132,12 +132,13 @@
     align-items: center;
     margin: 2dvh 0;
     gap: 5dvw;
+    padding: 5dvh 0;
   }
   .section-one h3
   {
     color: #1f2937;
     font-size: 1.2dvw;
-    margin: 3dvh 0;
+    margin: 5dvh 0 1dvh 0;
   }
   
   .text-img
@@ -157,4 +158,66 @@
     max-height: 15dvh;
     border-radius: 0.5dvw;
     margin-bottom: 2dvh;
+  }
+  .section-two
+  {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80dvw;
+    padding: 12dvh 25dvw;
+  }
+  .section-two p
+  {
+    font-size: 1.1dvw;
+    text-align: justify;
+    line-height: 1.6dvw;
+  }
+
+  footer
+  {
+    background-color: #ffffff;
+  }
+  .section-three
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 10dvh 0;
+    padding: 3dvh 2dvw;
+    width: 60dvw;
+    border-radius: 0.5dvw;
+    gap: 8dvw;
+  }
+  
+  .exit-section
+  {
+    flex-flow: column nowrap;
+    color: #ffffff;
+  }
+
+.exit-section h4
+{
+  font-size: 1.2dvw;
+  font-weight: bold;
+}
+
+.exit-section p
+{
+  font-size: 1dvw;
+  font-style: italic;
+}
+
+  .section-three input
+  {
+    width: 4.5dvw;
+    border: 0.1dvw solid #ffffff;
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 0.2dvw;
+    
+    text-align: center;
+    font-size: 1dvw;
   }
